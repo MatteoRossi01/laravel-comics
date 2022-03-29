@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Header */
+.container-header {
+    width: 75%;
+    height: 80px;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-logo img{
+    width: 60px;     
+}
+    
+.box-menu {
+    width: 75%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-menu ul {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.box-menu .input-box {
+    border-bottom: solid 2px #0282F9;
+    margin-left: 50px;
+    width: 125px;
+    color: #252525;
+    position: relative;
+}
+  
+.box-menu .input-box input {
+    width: 100%;
+    border: none;
+    text-align: right;
+    padding: 5px 23px 5px 0px;
+}
+  
+.box-menu .input-box ::placeholder {
+    color: #252525;
+    font-weight: bold;
+}
+  
+.box-menu .input-box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    right: 3px;
+}
+  
+.box-menu .input-box input:focus {
+    outline: none;
+}
+
+.box-menu ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    padding-bottom: 26px;
+}
+
+.box-menu ul li a:hover {
+    border-bottom: 5px solid #0081f8;
+    color: #0081f8;
+}
+
+header .header-top {
+    text-align: right;
+    padding: 5px 0px;
+    background-color: #0081f8;
+}
+  
+header .header-top span {
+    padding-left: 40px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.box-header-box {
+    margin-right: 220px;
+}
+/* Header */

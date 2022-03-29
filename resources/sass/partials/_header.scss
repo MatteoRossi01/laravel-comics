@@ -1,0 +1,41 @@
+@import "./variables";
+
+.container-header {
+    width: 75%;
+    height: 80px;
+    margin: auto;
+    margin-top: 5px;
+    @include my_row_flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .box-logo {
+        img {
+            width: 60px;
+        }
+    }
+
+    .box-menu {
+        width: 65%;
+        ul {
+            @include my_row_flex;
+            justify-content: space-between;
+            list-style: none;
+
+            li {
+                a {
+                    color: $Black;
+                    text-decoration: none;
+                    font-size: 13px;
+                    font-weight: 700;
+                    padding-bottom: 26px;
+
+                    &.active, &:hover{
+                        border-bottom: 5px solid $Blue;
+                        color:$Blue
+                    }
+                }
+            }
+        }
+    }
+}
