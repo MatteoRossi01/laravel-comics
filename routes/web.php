@@ -17,8 +17,8 @@ Route::get('/', function () {
 
     $menuLink = config('menuLink');
     $comics = config('comics');
-    $linkSection = config('linkSection');
+    $linkBox = config('linkBox');
 
-    $data= ['comics' => $comics, 'menuLink' => $menuLink, 'linkSection' => $linkSection,];
+    $data= ['comics' => $comics, 'menuLink' => $menuLink, 'linkBox' => $linkBox,];
     return view('home', $data);
 });

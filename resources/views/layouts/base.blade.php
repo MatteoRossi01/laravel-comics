@@ -10,6 +10,7 @@
 <body>
     @include('partials.header')
     @include('partials.main')
+    @include('partials.linkBox')
 
     @yield('content')
 </body>
