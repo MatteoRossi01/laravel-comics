@@ -11,6 +11,7 @@
     @include('partials.header')
     @include('partials.main')
     @include('partials.linkBox')
+    @include('partials.footer')
 
     @yield('content')
 </body>
